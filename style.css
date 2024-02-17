@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-size: 16px;
+    background-color:  hsl(275, 100%, 97%);
+    position: relative;
+    margin: 0;
+
+}
+
+.img-top {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-box {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.title {
+    display: flex;
+}
+
+.clique {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 0.9rem;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+p {
+    padding: 0 10px;
+    color: hsl(292, 16%, 49%);
+    font-size: 0.9rem;
+    line-height: 18px;
+    font-weight: 400;
+}
+
+hr {
+    width: 95%;
+}
+
+.popup-wrapper1, .popup-wrapper2, .popup-wrapper3, .popup-wrapper4 {
+    display: none;
+    
+}
+
+.popup-closed1, .popup-closed2, .popup-closed3, .popup-closed4 {
+    display: block;
+    padding-left: 93.4%;
+    margin-top: -49px;
+   
+}
+
+.popup-open1, .popup-open2, .popup-open3, .popup-open4 {
+    display: block;
+    
+}
+
+
+@media screen {
+    
+}
+
+
